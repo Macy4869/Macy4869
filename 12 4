@@ -1,0 +1,15 @@
+#include<stdio.h>
+typedef struct stu
+{int a;
+char b[15];
+char name[10];}stu;
+void print(stu *pp)
+{printf("a:%d\n",pp->a);
+printf("b:%s\n",pp->b);
+printf("name:%s\n",pp->name);
+}
+int main()
+{stu s={18,"110","梦野美树"};
+print(&s);
+return 0;
+}
