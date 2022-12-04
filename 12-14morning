@@ -1,0 +1,15 @@
+#include<stdio.h>
+typedef struck stu
+{int a;
+char b[15];
+char name[10]；}stu;
+int main()
+void print（stu *pp）
+{printf(age:"%d\n",pp->a);
+printf(tele:"%s\n",pp->b);
+printf(name:"%s\n",pp->name);
+}
+{stu s={18，“110”，“梦野美树”}
+print(&s);
+return 0;
+}
